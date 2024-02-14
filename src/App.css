@@ -1,42 +1,82 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-
-
-.container{
-display: flex;
-align-items: center;
-justify-content: center !important; 
-margin-left: auto !important;
-margin-right: auto !important;
-width: 1500px;
-height: 800px;
+.isloading {
+  display: block;
 }
-.main_divfirst_h2{
+.nolaod {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+.hero {
   width: 801px;
-height: 257px;
-
-font-size: 80px;
-font-weight: 700;
-line-height: 90px;
-letter-spacing: 0em;
-text-align: left;
-
+  margin-bottom: 50px;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 90px;
+  text-align: left;
+  margin-top: 80px;
 }
-.main_divfirst_p{
+.footer {
   width: 762px;
-height: 187px;
 
-font-size: 29px;
-font-weight: 500;
-line-height: 45px;
-letter-spacing: 0em;
-text-align: left;
-
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: left;
+  margin-bottom: 30px;
 }
-.main_divsecond{
-border-radius: 30px;
+.img {
+  border-radius: 30px;
+  width: 300px;
+  margin-bottom: 50px;
+  margin-left: 30%;
+}
+
+.typr {
+  margin-left: 30px;
+  padding: 3px 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #1976d2;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.butoon {
+  margin-bottom: 40px;
+}
+
+.loader {
+  margin-left: 49%;
+  margin-top: 100px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }

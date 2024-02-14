@@ -1,0 +1,41 @@
+{
+    "en": {
+      "translation": {
+        "web": "MY-SITE",
+        "hero": "Hi 👋, I’m Islomjon, Front-end Developer",
+        "footer": "I design and develop experiences that make people’s lives simpler through Web and Mobile apps.I work with FIgma , HTML5, CSS3, JavaScript, React, ReactNative and Flutter.",
+        "about": "About Me",
+        "skills": "Skills",
+        "project": "Project",
+        "button1": "HIRE ME",
+        "button2": "SEE MY PROJECTS"
+      }
+    },
+
+    "uz": {
+        "translation": {
+          "web": "MENING-SAYTIM",
+          "hero": "Salom  👋, men Islomjon, Front-end Developer",
+          "footer": "Men veb va mobil ilovalar orqali odamlarning hayotini soddalashtiradigan tajribalarni ishlab chiqaman va ishlab chiqaman. Men FIgma, HTML5, CSS3, JavaScript, React, ReactNative va Flutter bilan ishlayman.",
+          "about": "Men haqimda",
+        "skills": "Ko'nikmalar",
+        "project": "Loyiha",
+        "button1": "MENI ISHLASH",
+        "button2": "LOYIHALARIMNI KO'RING"
+        }
+      },
+    
+      "ru": {
+        "translation": {
+          "web": "МОЙ-САЙТ",
+          "hero": "Привет  👋, я Исломджон, фронтенд-разработчик.",
+          "footer": "Я проектирую и разрабатываю решения, которые упрощают жизнь людей с помощью веб- и мобильных приложений. Я работаю с FIgma, HTML5, CSS3, JavaScript, React, ReactNative и Flutter.",
+          "about": "Обо мне",
+          "skills": "Навыки",
+          "project": "Проект",
+          "button1": "НАЙМИ МЕНЯ",
+          "button2": "ПОСМОТРЕТЬ МОИ ПРОЕКТЫ"  
+        }
+      }
+      
+  }
